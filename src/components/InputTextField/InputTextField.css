@@ -1,0 +1,115 @@
+.inputTextField {
+  position: relative;
+  max-width: 540px;
+  margin-top: 30px; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.inputTextField input {
+  width: 540px;
+  text-align: right;
+  background: var(--bg-shade);
+  padding: 8px 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border: none;
+  color: var(--dark-green);
+}
+
+.inputTextField input:focus {
+  border: none;
+}
+
+.inputTextField label {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: left;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+.imageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 24px;
+  height: 100%;
+}
+
+.inputContainer{
+  position: relative;
+}
+
+.inputNumberOfPeople {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+  }
+  
+  .inputNumberOfPeople input {
+    display: block;
+    width: 540px;
+    text-align: right;
+    background: var(--bg-shade);
+    padding: 8px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: none;
+    color: var(--dark-green);
+  }
+  
+  .inputNumberOfPeople input:focus {
+    outline: none;
+    border: 2px solid var(--base-green);
+    top: 72px;
+  }
+  
+  .inputNumberOfPeople label {
+    color: var(--text-color);
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    margin-left: 0px;
+  }
+  
+  .imageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   
+  }
+  
+  .error {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--error);
+  }
+
+  .errorClasses input:focus{
+    border-color: var(--error);
+  }
+
+  @media (max-width: 768px){
+    
+    .inputTextField input{
+      max-width: 480px;
+      padding: 25px;
+    }
+  }

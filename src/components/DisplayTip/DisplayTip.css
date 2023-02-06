@@ -1,0 +1,84 @@
+.display-tip-input {
+  background-color: var(--dark-green);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid green;
+  position: absolute;
+  
+}
+
+.display-container {
+  display: grid;
+  padding: 60px 56px;
+}
+
+.display-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+  align-items: center;
+  text-align: left;
+}
+
+.display-label {
+  display: grid;
+  justify-items: start;
+}
+
+.header {
+  color: var(--bg-shade);
+  font-size: 20px;
+}
+.unit {
+  color: var(--base-green);
+  font-size: 20px;
+}
+.display-amt {
+  font-size: 48px;
+  color: var(--base-green);
+  width: 240px;
+  height: 71px;
+  left: 1016px;
+  top: 117px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px;
+  text-align: right;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 36px;
+  background-color: var(--base-green);
+  border: none;
+  border-radius: 4px;
+  width: 454px;
+  height: 62px;
+  left: 709px;
+  top: 518px;
+  align-items: center;
+  color: var(--dark-green);
+}
+
+.reset-btn {
+  margin: 0;
+  position: absolute;
+  align-self: center;
+  top: 75%;
+}
+
+.btn:focus {
+  outline: none;
+  background-color: #0d686d;
+  color: #00474b;
+}
+.btn:disabled{
+  background-color: #0d686d;
+}
+@media (max-width: 786px){
+
+}

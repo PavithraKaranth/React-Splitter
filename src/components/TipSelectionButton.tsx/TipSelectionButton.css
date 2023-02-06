@@ -1,0 +1,56 @@
+.tip-selection {
+  display: absolute;
+  position: relative;
+  width: 540px;
+}
+
+.select-container{
+  margin-top:30px;
+}
+.select-tip{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 5px;
+    max-width: 160px;
+  }
+
+.Tip-amt {
+    position: relative;
+  }
+
+  .tip-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+ @media (max-width: 768px){
+  
+  .tip-selection{
+    display:flex;
+  }
+  .tip-btn{
+    margin: 5px;
+    
+    
+  }
+  .tip-row{
+    display:flex;
+   flex-direction: column;
+  }
+
+  .tip-wrap{
+    margin-top: 5px;
+  }
+  .tip-wrap2{
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .wrapper{
+    display: flex;
+    gap:10px;
+  }
+
+ }

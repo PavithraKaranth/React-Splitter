@@ -1,0 +1,65 @@
+
+.Tip-selection {
+  display: grid;
+  justify-content: start;
+  gap: 0.5 rem;
+}
+
+.Tip-amt {
+  position: relative;
+  
+}
+
+.Tip-btn {
+  background-color: var(--dark-green);
+  color: var(--bg-shade);
+  border-radius: 6px;
+  width: 160px;
+  height: 70px;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  
+}
+
+.Tip-btn input{
+  position: absolute;
+  border: none;
+  background: var(--base-green);
+
+}
+
+.Tip-custom {
+  border-radius: 6px;
+  border: 2px solid #5baba2;
+  width: 159px;
+  height: 64px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 32px;
+  outline: var(--bg-shade);
+  
+}
+.Tip-btn:focus{
+  background-color: var(--base-green);
+}
+  
+@media (max-width: 768px){
+  .Tip-selection{
+   max-width:200px;
+   padding: 5px;
+  }
+  .Tip-btn{
+    width: 210px;
+    height: 80px;
+    font-size:30px;
+    margin-left:20px;
+  }
+}

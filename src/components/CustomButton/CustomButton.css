@@ -1,0 +1,27 @@
+.tip-custom {
+    border-radius: 6px;
+    /* border: 2px solid #5baba2; */
+    border:none;
+    width: 159px;
+    height: 64px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 32px;
+    outline: var(--bg-shade);
+    background: #F3F8FB;
+    margin-top:10px;
+  }
+  .tip-custom:focus{
+    border:2px solid black;
+  }
+
+  @media (max-width: 768px){
+    .tip-custom{
+      width: 210px;
+      height: 80px;
+      font-size:30px;
+      margin-left:25px;
+    }
+  }
